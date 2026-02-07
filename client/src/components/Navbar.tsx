@@ -29,7 +29,7 @@ export default function Navbar() {
                         isLoggedIn ? <Link to="/my-generation" className="hover:text-pink-500 transition">My Generations</Link>
                             : <Link to="#" className="hover:text-pink-500 transition">About</Link>
                     }
-                    <Link to="#" className="hover:text-pink-500 transition">Contact us</Link>
+                    <Link to="/contact" className="hover:text-pink-500 transition">Contact us</Link>
                 </div>
                 <div className="flex items-center gap-2">
                     {isLoggedIn ? (
@@ -62,7 +62,7 @@ export default function Navbar() {
                     <Link onClick={() => setIsOpen(false)} to="/my-generation">My Generations</Link>
                     : <Link onClick={() => setIsOpen(false)} to="#">About</Link>
                 }
-                <Link onClick={() => setIsOpen(false)} to="#">Contact us</Link>
+                <Link onClick={() => setIsOpen(false)} to="/contact">Contact us</Link>
                 {isLoggedIn
                     ? <button onClick={() => { setIsOpen(false); logout() }}>Logout</button>
                     : <Link onClick={() => setIsOpen(false)} to="/login">Login</Link>
