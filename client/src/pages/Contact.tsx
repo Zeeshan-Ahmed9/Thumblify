@@ -2,11 +2,6 @@ import { motion } from "motion/react";
 import { Mail, Phone, MapPin, Github } from "lucide-react";
 import SoftBackdrop from "../components/SoftBackdrop";
 
-// =====================================================
-//  CONTACT PAGE (Display Only — No Form / No Backend)
-//  Pink + Black Modern Glass UI
-// =====================================================
-
 export default function Contact() {
     return (
         <div className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden text-white">

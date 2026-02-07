@@ -53,7 +53,7 @@ export default function HeroSection() {
                 <button onClick={() => navigate('/generate')} className="bg-pink-600 hover:bg-pink-700 text-white rounded-full px-7 h-11 text-nowrap">
                     Create Now
                 </button>
-                <button className="flex items-center gap-2 border border-pink-900 hover:bg-pink-950/50 transition rounded-full px-6 h-11">
+                <button onClick={() => navigate('/about')} className="flex items-center gap-2 border border-pink-900 hover:bg-pink-950/50 transition rounded-full px-6 h-11">
                     <VideoIcon strokeWidth={1} />
                     <span className="text-nowrap">See How it works</span>
                 </button>
