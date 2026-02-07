@@ -11,6 +11,7 @@ import Login from "./components/Login";
 import { useEffect } from "react";
 import { Toaster } from "react-hot-toast";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
 export default function App() {
     const { pathname } = useLocation()
     useEffect(() => {
@@ -29,6 +30,7 @@ export default function App() {
                 <Route path="/preview" element={<YtPreview />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/about" element={<About />} />
 
             </Routes>
             <Footer />
