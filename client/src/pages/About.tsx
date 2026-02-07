@@ -26,7 +26,7 @@ export default function About() {
                     transition={{ duration: 0.8 }}
                     className="text-center"
                 >
-                    <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-pink-600 animate-text mt-6">
+                    <h1 className="text-6xl md:text-7xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-pink-600 animate-text mt-6">
                         About <span className="text-pink-500">Our App</span>
                     </h1>
                     <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-300/90 leading-relaxed">
