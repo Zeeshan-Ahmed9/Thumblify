@@ -49,6 +49,7 @@ https://thumblify.vercel.app
 - next js
 - Gemini api key
 - User Authentication
+- MongoDB
 
 ### Deployment
 - Vercel
