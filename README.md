@@ -40,6 +40,8 @@ https://thumblify.vercel.app
 
 - HTML
 - CSS
+- Javascript
+- Typescript
 - React
 - Vite
 - Tailwind CSS
