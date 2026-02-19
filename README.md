@@ -6,7 +6,7 @@ No design skills required — just describe your idea and download a ready-to-up
 ---
 
 ## 🚀 Live Demo
-https://thumblify.vercel.app
+(https://thumblify-pi.vercel.app/)
 
 ---
 
